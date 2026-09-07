@@ -33,6 +33,32 @@ Built with **pandas**, **numpy**, **matplotlib**, and **seaborn**:
 3. **Visualize**: delivery-time distribution, OTP by mode, cost vs. distance, correlation heatmap, monthly trend, cost composition, delay by region, and rating vs. delay
 4. **Interpret** each chart in terms of operational efficiency, cost drivers, and bottlenecks
 
+## Visualizations
+
+### 1. Distribution of Shipment Delivery Times
+![Delivery Time Distribution](images/01_delivery_time_distribution.png)
+
+### 2. On-Time Performance (OTP) by Transport Mode
+![OTP by Mode](images/02_otp_by_mode.png)
+
+### 3. Transportation Cost vs. Distance by Mode
+![Cost vs Distance](images/03_cost_vs_distance.png)
+
+### 4. Correlation Matrix of Key Logistics Metrics
+![Correlation Heatmap](images/04_correlation_heatmap.png)
+
+### 5. Monthly Shipment Volume and Total Transportation Cost
+![Monthly Trend](images/05_monthly_trend.png)
+
+### 6. Average Cost Composition by Transport Mode
+![Cost Breakdown](images/06_cost_breakdown.png)
+
+### 7. Delivery Delay Distribution by Region
+![Delay by Region](images/07_delay_by_region.png)
+
+### 8. Customer Satisfaction Rating vs. Delivery Delay
+![Rating vs Delay](images/08_rating_vs_delay.png)
+
 ## Key Findings
 
 - Overall on-time performance (OTP) is **69.4%**
