@@ -12,6 +12,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os 
+
 
 # ----------------------------------------------------------------------
 # 0. Global settings
@@ -20,6 +22,7 @@ np.random.seed(42)
 sns.set_theme(style="whitegrid", palette="deep")
 plt.rcParams["figure.dpi"] = 150
 OUT = "images/"
+os.makedirs(OUT, exist_ok=True) #Corrected this 
 
 # ----------------------------------------------------------------------
 # 1. DATA SIMULATION
